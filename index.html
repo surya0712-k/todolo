@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-1</title>
+    <script src = "index.js" defer></script>
+    <link rel= "stylesheet" href="index.css" >
+</head>
+<body>
+    <h1>ToDolo</h1>
+    <div id="day-time"><h5>My day,<br><span id ="exactday"></span></h5><br>
+        
+
+    </div>
+<div class="add-task">
+    <button class="plus" onclick="addtask()">+</button> 
+    <input type ="text" id="task-input" placeholder="add a task" onkeypress="handlekeyPress(event)">
+</div>
+<ul id="task-list"></ul>
+<div id = "Completed-task-list">
+<h3>Completed tasks</h3>
+</div>
+</body>
+</html>
