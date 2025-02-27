@@ -46,10 +46,9 @@ h1{
 }
 .task-checkbox{
     background-color: blueviolet;
-    
     width: 16px;
     height: 16px;
-    ;
+    cursor: pointer;
 }                  
 .completed{
     text-decoration: line-through;
