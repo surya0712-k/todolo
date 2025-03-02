@@ -9,6 +9,8 @@ function saveTasks() {
 function addtask() {
   const taskInput = document.querySelector("#task-input");
   const taskText = taskInput.value.trim();
+  console.log("taskInput is :",taskInput);
+  console.log("taskText :",taskText);
   if (taskText === "") {
     alert("The task is empty");
     return;
